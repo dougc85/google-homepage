@@ -1,0 +1,277 @@
+header {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    opacity: .75;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 43px;
+    margin-top: 16px;
+}
+
+header a {
+    text-decoration: none;
+    display: block;
+    padding-top: 6px;
+}
+
+header a:visited {
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header div {
+    display: inline-block;
+}
+
+.app-image {
+    height: 30px;
+    width: 30px;
+    background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .70;
+    padding-right: 15px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.app-image:hover {
+    opacity: 1;
+}
+
+.left-head {
+    padding-left: 17px;
+    padding-top: 1px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.right-head {
+    margin-top: 0;
+    padding-top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    color: rgba(0,0,0,0.87);
+}
+
+.store-link {
+    padding-left: 15px;
+}
+
+a.sign-in {
+    background-color: #1160df;
+    position: relative;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 28px;
+    width: 68px;
+    border: 1px solid #4285f4;
+    border-radius: 33px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 22px;
+    margin-top: 0px;
+    padding-top: 0;
+    top: 0;
+}
+
+.sign-in:visited {
+    color: white;
+}
+
+.sign-in:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.images {
+    padding-right: 14px;
+    padding-top: 8px;
+}
+
+.gmail {
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.logo {
+    width: 478px;
+    margin: 0 auto;
+    margin-top: -11px;
+}
+
+.share-link {
+    display: block;
+    position: relative;
+    bottom: 40px;
+    left: 444px;
+    opacity: .8;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+}
+.form-group:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.icon-box {
+    color: #9aa0a6;
+    fill: currentColor;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.glass {
+    height: 20px;
+    width: 20px; 
+}
+.search-field {
+    border: none;
+    font: 16px arial,sans-serif;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 13px;
+}
+
+.search-field:focus {
+    outline: none;
+}
+
+.btn-box {
+    margin: 0 auto;
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.btns {
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    width: 138px;
+    border: none;
+    height: 35px;
+}
+
+.btns:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+    cursor: pointer;
+}
+
+body {
+    padding-bottom: 0;
+}
+.foot {
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    color: #70757a;
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    
+}
+
+.feet a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 6px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.feet a:visited {
+    color: #70757a;
+}
+
+.feet a:hover {
+    text-decoration: underline;
+}
+
+.left-foot {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 297px;
+    margin-top: 6px;
+    margin-left: 30px;
+    order: 1;
+}
+.center-foot {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 90px;
+    padding-top: 6px;
+}
+
+.right-foot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 188px;
+    margin-top: 6px;
+    margin-right: 30px;
+}
+
+.leaf {
+    height: 14px;
+    margin-right: 2px;
+}
+
+@media (max-width: 1040px) {
+    .foot {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feet {
+        position: static;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .center-foot {
+        width: 190px;
+        text-align: center;
+        padding-top: 6px;
+        margin-left: -27px;
+    }
+
+    .right-foot {
+        padding-top: 6px;
+        margin-left: -1px;
+    }
+
+    .left-foot {
+        margin-top: 6px;
+    }
+
+}
